@@ -1,0 +1,116 @@
+/*@import "App.css";*/
+
+.pageTitle {
+    background-color: var(--yellow-color);
+    border-radius: 10px;
+    padding: 15px;
+    color: var(--dark-blue-color);
+    font-size: 15px;
+    font-weight: bold;
+    width: 155px;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+}
+
+.boatCardsContainer {
+    margin: 90px auto 0;
+    top: 65px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #8a93a8;
+    height: 150px;
+    width: 125px;
+    display: flex;
+    margin-bottom: 70px;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.imageBoatListContainer {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -35px;
+    border-radius: 50%;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cardTitle {
+    position: relative;
+    text-align: center;
+    top: 60px;
+    color: #000000;
+    font-weight: bolder;
+    /* avant derniere carte : affichage fonctionne pas*/
+}
+
+.detailsButton {
+    background-color: var(--yellow-color);
+    color: var(--dark-blue-color);
+    padding: 5px 25px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.detailsButton:hover {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

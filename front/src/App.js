@@ -27,7 +27,6 @@ function App() {
                           <Route path="schedule" element={<Schedule />}/>
                       </Route>
                   </Route>
-                  <Route path="*" element={<><p>ERREUR : Aucune route correspondante</p></>} />
               </Route>
           </Routes>
         </div>
